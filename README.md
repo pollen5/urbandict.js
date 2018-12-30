@@ -3,12 +3,12 @@ Easily search urban dictionary and pull up terms with other useful utilities.
 
 ## Install
 ```sh
-npm install urbandict
+npm install urbandict.js
 ```
 
 ## Usage
 ```js
-const urban = require("urbandict");
+const urban = require("urbandict.js");
 
 // Search a term
 urban("term").then(console.log);
@@ -48,7 +48,7 @@ console.log(urban.boxRegex);
 ## CLI
 Install globally:
 ```sh
-npm i -g urbandict
+npm i -g urbandict.js
 ```
 
 Now you have access to use the `urban` executable:

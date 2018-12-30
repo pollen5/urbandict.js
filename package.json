@@ -1,5 +1,5 @@
 {
-  "name": "urbandict",
+  "name": "urbandict.js",
   "version": "0.0.1",
   "description": "Search urban dictionary with ease (includes a CLI tool)",
   "main": "index.js",
