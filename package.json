@@ -1,0 +1,35 @@
+{
+  "name": "urbandict",
+  "version": "0.0.1",
+  "description": "Search urban dictionary with ease (includes a CLI tool)",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pollen5/urbandict.js.git"
+  },
+  "keywords": [
+    "urban",
+    "ud",
+    "dictionary",
+    "urbandictionary",
+    "urbandict",
+    "dict",
+    "cli"
+  ],
+  "author": "PoLLeN <pollen@itsladybug.tk> (https://itsladybug.tk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pollen5/urbandict.js/issues"
+  },
+  "homepage": "https://github.com/pollen5/urbandict.js#readme",
+  "bin": {
+    "urban": "./cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "escape-html": "^1.0.3"
+  }
+}
